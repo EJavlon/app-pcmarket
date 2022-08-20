@@ -58,8 +58,7 @@ public class ProductService {
         product.setCategory(optionalCategory.get());
         product.setGuarantee(productDto.getGuarantee());
         product.setImages(getImages(productDto.getImagesId()));
-        product.setPrice(productDto.getPrice());
-        product.setPrice(productDto.getPrice());
+        product.setPrice(productDto.getPrice());        
         product = productRepository.save(product);
 
         return new ApiResponse("Product seccessfully saved", true, product);
@@ -77,8 +76,7 @@ public class ProductService {
         product.setCategory(optionalCategory.get());
         product.setGuarantee(productDto.getGuarantee());
         product.setImages(getImages(productDto.getImagesId()));
-        product.setPrice(productDto.getPrice());
-        product.setPrice(productDto.getPrice());
+        product.setPrice(productDto.getPrice());       
         product = productRepository.save(product);
 
         return new ApiResponse("Product seccessfully saved", true, product);
@@ -96,8 +94,7 @@ public class ProductService {
         product.setCategory(optionalCategory.get());
         product.setGuarantee(productDto.getGuarantee());
         product.setImages(getImages(productDto.getImagesId()));
-        product.setPrice(productDto.getPrice());
-        product.setPrice(productDto.getPrice());
+        product.setPrice(productDto.getPrice());        
         product = productRepository.save(product);
 
         return new ApiResponse("Product seccessfully saved", true, product);
@@ -115,8 +112,7 @@ public class ProductService {
         product.setCategory(optionalCategory.get());
         product.setGuarantee(productDto.getGuarantee());
         product.setImages(getImages(productDto.getImagesId()));
-        product.setPrice(productDto.getPrice());
-        product.setPrice(productDto.getPrice());
+        product.setPrice(productDto.getPrice());        
         product = productRepository.save(product);
 
         return new ApiResponse("Product seccessfully saved", true, product);
@@ -134,8 +130,7 @@ public class ProductService {
         product.setCategory(optionalCategory.get());
         product.setGuarantee(productDto.getGuarantee());
         product.setImages(getImages(productDto.getImagesId()));
-        product.setPrice(productDto.getPrice());
-        product.setPrice(productDto.getPrice());
+        product.setPrice(productDto.getPrice());      
         product = productRepository.save(product);
 
         return new ApiResponse("Product seccessfully saved", true, product);
@@ -153,8 +148,7 @@ public class ProductService {
         product.setCategory(optionalCategory.get());
         product.setGuarantee(productDto.getGuarantee());
         product.setImages(getImages(productDto.getImagesId()));
-        product.setPrice(productDto.getPrice());
-        product.setPrice(productDto.getPrice());
+        product.setPrice(productDto.getPrice());        
         product = productRepository.save(product);
 
         return new ApiResponse("Product seccessfully saved", true, product);
@@ -172,8 +166,7 @@ public class ProductService {
         product.setCategory(optionalCategory.get());
         product.setGuarantee(productDto.getGuarantee());
         product.setImages(getImages(productDto.getImagesId()));
-        product.setPrice(productDto.getPrice());
-        product.setPrice(productDto.getPrice());
+        product.setPrice(productDto.getPrice());        
         product = productRepository.save(product);
 
         return new ApiResponse("Product seccessfully saved", true, product);
@@ -191,8 +184,7 @@ public class ProductService {
         product.setCategory(optionalCategory.get());
         product.setGuarantee(productDto.getGuarantee());
         product.setImages(getImages(productDto.getImagesId()));
-        product.setPrice(productDto.getPrice());
-        product.setPrice(productDto.getPrice());
+        product.setPrice(productDto.getPrice());        
         product = productRepository.save(product);
 
         return new ApiResponse("Product seccessfully saved", true, product);
@@ -209,8 +201,7 @@ public class ProductService {
         product.setCategory(optionalCategory.get());
         product.setGuarantee(productDto.getGuarantee());
         product.setImages(getImages(productDto.getImagesId()));
-        product.setPrice(productDto.getPrice());
-        product.setPrice(productDto.getPrice());
+        product.setPrice(productDto.getPrice());        
         product = productRepository.save(product);
 
         return new ApiResponse("Product seccessfully edited", true, product);
